@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/tomorrow-security/privaya",
   siteMetadata: {
     title: `Privaya`,
     description: `Reprenez le contrôle de vos données personnelles avec Privaya.`,
