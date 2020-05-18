@@ -4,7 +4,7 @@ import React from "react"
 import Container from "../atoms/Container"
 
 const image =
-  "https://res.cloudinary.com/privaya/image/upload/w_560,h_300,f_auto,q_auto:low/v1578760248/public/alexandru-zdrobau-4bmtMXGuVqo-unsplash_nbk0ne"
+  "https://res.cloudinary.com/privaya/image/upload/w_1120,h_600,f_auto,q_auto:low/v1578760248/public/alexandru-zdrobau-4bmtMXGuVqo-unsplash_nbk0ne"
 
 export default () => (
   <div
