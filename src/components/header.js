@@ -37,7 +37,7 @@ export default ({ transparent }) => {
         <div className="h-full flex items-center justify-between">
           <Link to="/" className="flex items-center space-x-2">
             <img
-              src="https://privaya.com/logo--reverse.svg"
+              src="https://res.cloudinary.com/privaya/image/upload/v1589824640/public/logo--reverse_w52lzc.svg"
               alt="logo Privaya"
             />
           </Link>

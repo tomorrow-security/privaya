@@ -4,6 +4,7 @@ module.exports = {
     title: `Privaya`,
     description: `Reprenez le contrôle de vos données personnelles avec Privaya.`,
     author: `Tomorrow Security`,
+    siteUrl: `https://privaya.com`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -28,6 +29,15 @@ module.exports = {
     //   },
     // },
     `gatsby-plugin-postcss`,
+    `gatsby-plugin-sitemap`,
+    {
+      resolve: "gatsby-plugin-robots-txt",
+      options: {
+        host: "https://privaya.com",
+        sitemap: "https://privaya.com/sitemap.xml",
+        policy: [{ userAgent: "*", allow: "/" }],
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
