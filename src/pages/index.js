@@ -1,21 +1,19 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 
-const IndexPage = () => (
-  <Layout>
+import Hero from "../components/organisms/Hero"
+import How from "../components/organisms/BlockHomeHow"
+import Why from "../components/organisms/BlockHomeWhy"
+import LastArticles from "../components/organisms/BlockLastArticles"
+
+export default () => (
+  <Layout transparentHeader={true}>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    <Hero />
+    <Why />
+    <How />
+    <LastArticles />
   </Layout>
 )
-
-export default IndexPage
