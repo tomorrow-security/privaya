@@ -3,7 +3,7 @@ import React from "react"
 import Container from "../atoms/Container"
 
 const Card = ({ image, title, description }) => (
-  <div className="flex flex-col items-center lg:divide-y lg:divide-pink-700">
+  <div className="flex flex-col items-center lg:divide-y lg:divide-privaya-pink">
     <h3 className="w-full lg:py-2 text-center text-xl text-pink-700 lg:text-black">
       {title}
     </h3>
