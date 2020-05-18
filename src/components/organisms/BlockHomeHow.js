@@ -20,6 +20,7 @@ export default () => (
             className="object-contain"
             src="https://res.cloudinary.com/privaya/image/upload/w_400,h_300,f_auto,q_auto:low/v1578759752/public/Mockup-20200111_shbghp"
             alt="tablet"
+            loading="lazy"
           />
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 text-center">

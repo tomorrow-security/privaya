@@ -12,6 +12,7 @@ export default () => (
           <img
             src="https://res.cloudinary.com/privaya/image/upload/v1589711946/public/privaya_logo_short_gewivx.svg"
             alt="logo Privaya"
+            loading="lazy"
           />
           <span className="text-white text-md sm:text-2xl">
             Privaya vous aide à reprendre le contrôle de vos données
